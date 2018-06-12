@@ -1,0 +1,23 @@
+{
+  "name": "monitor-saga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Stjepan Golemac <stjepan.golemac@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "parcel-bundler": "^1.8.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "remote-redux-devtools": "^0.5.12",
+    "styled-components": "^3.3.2"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html"
+  }
+}
