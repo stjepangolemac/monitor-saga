@@ -8,7 +8,7 @@ import store from './store'
 class App extends React.Component {
   render() {
     return (
-      <div>Open Redux Devtools and start playing</div>
+      <div>Open Redux Devtools and start playing. Try dispatching actions from actions.js file.</div>
     )
   }
 }
