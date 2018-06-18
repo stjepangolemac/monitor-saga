@@ -10,8 +10,9 @@ import {
 const ignoreActionTypes = ['TOKEN_REFRESH']
 
 function monitorableAction(action) {
-  return action.type.includes('REQUEST')
-    && ignoreActionTypes.every(fragment => !action.type.includes(fragment))
+  return action.type
+    .includes('REQUEST') && ignoreActionTypes
+      .every(fragment => !action.type.includes(fragment))
 }
 
 function identifyAction(action) {
